@@ -1,0 +1,861 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>portofolio arjuvio</title>
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+
+    <!-- Bootstrap Icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <!-- Navbar Start -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top shadow-sm">
+      <div class="container-lg">
+        <a class="navbar-brand text-danger fw-bold fs-4" href="#">Portfolio</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#home"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#services">Services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#portfolio">Portfolio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#testimonial">Testimonial</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+            <li class="nav-item dropdown">
+              <button
+                class="btn nav-link dropdown-toggle"
+                type="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                <i
+                  class="bi bi-sun-fill theme-icon-active"
+                  data-theme-icon-active="bi-sun-fill"
+                ></i>
+              </button>
+              <ul class="dropdown-menu dropdown-menu-end">
+                <li>
+                  <button
+                    class="dropdown-item d-flex align-items-center"
+                    type="button"
+                    data-bs-theme-value="light"
+                  >
+                    <i
+                      class="bi bi-sun-fill me-2 opacity-50"
+                      data-icon-active="bi-sun-fill"
+                    ></i>
+                    Light
+                  </button>
+                </li>
+                <li>
+                  <button
+                    class="dropdown-item d-flex align-items-center"
+                    type="button"
+                    data-bs-theme-value="dark"
+                  >
+                    <i
+                      class="bi bi-moon-fill me-2 opacity-50"
+                      data-icon-active="bi-moon-fill"
+                    ></i>
+                    Dark
+                  </button>
+                </li>
+                <li>
+                  <button
+                    class="dropdown-item d-flex align-items-center"
+                    type="button"
+                    data-bs-theme-value="auto"
+                  >
+                    <i
+                      class="bi bi-circle-half me-2 opacity-50"
+                      data-icon-active="bi-circle-half"
+                    ></i>
+                    Auto
+                  </button>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- Navbar End -->
+
+    <!-- Home Start -->
+    <section class="home bg-body-tertiary py-5" id="home">
+      <div class="container-lg">
+        <div class="row min-vh-100 align-items-center align-content-center">
+          <div class="col-md-6 mt-5 mt-md-0">
+            <div class="home-img text-center">
+              <img
+                src="/img/profile.png"
+                class="rounded-circle mw-100"
+                alt="Profile picture"
+              />
+            </div>
+          </div>
+          <div class="col-md-6 mt-5 mt-md-0 order-md-first">
+            <div class="home-text">
+              <p class="text-muted mb-1">Hello I'm</p>
+              <h1 class="text-danger text-uppercase fs-1 fw-bold">
+                Web Designer
+              </h1>
+              <h2 class="fs-4">Peter Parker</h2>
+              <p class="mt-4 text-muted">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Asperiores error, totam illum quo adipisci quos cumque voluptate
+                pariatur eos expedita?
+              </p>
+              <a href="#portfolio" class="btn btn-danger px-3 mt-3">My Work</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Home End -->
+
+    <!-- About Start -->
+    <section class="about bg-body-tertiary py-5" id="about">
+      <div class="container-lg py-4">
+        <div class="row justify-content-center">
+          <div class="col-lg-8">
+            <div class="section-title text-center">
+              <h2 class="fw-bold mb-5">About Me</h2>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-6">
+            <div class="about-text">
+              <h3 class="fs-4 mb-3">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Eveniet, maxime?
+              </h3>
+              <p class="text-muted">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                Exercitationem excepturi deserunt quis deleniti ab quasi, fuga
+                repudiandae alias voluptatibus adipisci delectus? Eius sit
+                obcaecati illo aliquid voluptatem consequatur saepe totam.
+              </p>
+            </div>
+            <div class="row text-center text-uppercase my-3">
+              <div class="col-sm-4">
+                <div class="fact-item">
+                  <h4 class="fs-1 fw-bold">100+</h4>
+                  <p class="text-muted">Projects Completed</p>
+                </div>
+              </div>
+              <div class="col-sm-4">
+                <div class="fact-item">
+                  <h4 class="fs-1 fw-bold">90+</h4>
+                  <p class="text-muted">Clients</p>
+                </div>
+              </div>
+              <div class="col-sm-4">
+                <div class="fact-item">
+                  <h4 class="fs-1 fw-bold">90+</h4>
+                  <p class="text-muted">Positive Reviews</p>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-lg-12 d-flex align-items-center">
+                <a href="#" class="btn btn-danger px-3 me-5">Download CV</a>
+                <div class="social-links">
+                  <a href="#" class="me-2" style="color: var(--bs-body-color)"
+                    ><i class="fab fa-facebook"></i
+                  ></a>
+                  <a href="#" class="me-2" style="color: var(--bs-body-color)"
+                    ><i class="fab fa-x-twitter"></i
+                  ></a>
+                  <a href="#" class="me-2" style="color: var(--bs-body-color)"
+                    ><i class="fab fa-instagram"></i
+                  ></a>
+                  <a href="#" class="me-2" style="color: var(--bs-body-color)"
+                    ><i class="fab fa-linkedin-in"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 mt-5 mt-md-0">
+            <div class="skill-item mb-4">
+              <h3 class="fs-6">HTML</h3>
+              <div
+                class="progress"
+                role="progressbar"
+                aria-valuenow="25"
+                aria-valuemin="0"
+                aria-valuemax="100"
+                style="height: 5px"
+              >
+                <div class="progress-bar bg-danger" style="width: 25%"></div>
+              </div>
+            </div>
+            <div class="skill-item mb-4">
+              <h3 class="fs-6">CSS</h3>
+              <div
+                class="progress"
+                role="progressbar"
+                aria-valuenow="50"
+                aria-valuemin="0"
+                aria-valuemax="100"
+                style="height: 5px"
+              >
+                <div class="progress-bar bg-danger" style="width: 50%"></div>
+              </div>
+            </div>
+            <div class="skill-item mb-4">
+              <h3 class="fs-6">Javascript</h3>
+              <div
+                class="progress"
+                role="progressbar"
+                aria-valuenow="75"
+                aria-valuemin="0"
+                aria-valuemax="100"
+                style="height: 5px"
+              >
+                <div class="progress-bar bg-danger" style="width: 75%"></div>
+              </div>
+            </div>
+            <div class="skill-item">
+              <h3 class="fs-6">Bootstrap</h3>
+              <div
+                class="progress"
+                role="progressbar"
+                aria-valuenow="100"
+                aria-valuemin="0"
+                aria-valuemax="100"
+                style="height: 5px"
+              >
+                <div class="progress-bar bg-danger" style="width: 100%"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- About End -->
+
+    <!-- Service Start -->
+    <section class="services bg-body-tertiary py-5" id="services">
+      <div class="container-lg py-4">
+        <div class="row justify-content-center">
+          <div class="col-lg-8">
+            <div class="section-title text-center">
+              <h2 class="fw-bold mb-5">What I Do</h2>
+            </div>
+          </div>
+        </div>
+        <div class="row text-center">
+          <div class="col-md-6 col-lg-4 mb-4">
+            <div
+              class="service-item shadow-sm p-4 rounded"
+              style="background-color: var(--bs-danger)"
+            >
+              <div class="icon my-3 text-danger fs-2">
+                <i class="fas fa-code" style="color: var(--bs-body-color)"></i>
+              </div>
+              <h3 class="fs-5 py-2" style="color: var(--bs-body-color)">
+                Web Development
+              </h3>
+              <p style="color: var(--bs-body-color)">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora
+                repellendus aut eos eveniet corporis eius optio. Exercitationem,
+                quibusdam sapiente? Distinctio!
+              </p>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4 mb-4">
+            <div
+              class="service-item shadow-sm p-4 rounded"
+              style="background-color: var(--bs-danger)"
+            >
+              <div class="icon my-3 text-danger fs-2">
+                <i
+                  class="fas fa-palette"
+                  style="color: var(--bs-body-color)"
+                ></i>
+              </div>
+              <h3 class="fs-5 py-2" style="color: var(--bs-body-color)">
+                Graphic Design
+              </h3>
+              <p style="color: var(--bs-body-color)">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora
+                repellendus aut eos eveniet corporis eius optio. Exercitationem,
+                quibusdam sapiente? Distinctio!
+              </p>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4 mb-4">
+            <div
+              class="service-item shadow-sm p-4 rounded"
+              style="background-color: var(--bs-danger)"
+            >
+              <div class="icon my-3 text-danger fs-2">
+                <i
+                  class="fas fa-clapperboard"
+                  style="color: var(--bs-body-color)"
+                ></i>
+              </div>
+              <h3 class="fs-5 py-2" style="color: var(--bs-body-color)">
+                Editing Video
+              </h3>
+              <p style="color: var(--bs-body-color)">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora
+                repellendus aut eos eveniet corporis eius optio. Exercitationem,
+                quibusdam sapiente? Distinctio!
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Service End -->
+
+    <!-- Portfolio Start -->
+    <section class="portfolio bg-body-tertiary py-5" id="portfolio">
+      <div class="container-lg py-4">
+        <div class="row justify-content-center">
+          <div class="col-lg-8">
+            <div class="section-title text-center">
+              <h2 class="fw-bold mb-5">Latest Works</h2>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-6 col-lg-4">
+            <div class="portfolio-item">
+              <img
+                src="img/portfolio/1.jpg"
+                class="w-100 img-thumbnail"
+                alt="Portfolio Item"
+              />
+              <h3 class="text-capitalize fs-5 my-2">Team Section</h3>
+              <p class="mb-4">
+                <a href="#" class="text-danger text-decoration-none"
+                  >Live Demo</a
+                >
+              </p>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4">
+            <div class="portfolio-item">
+              <img
+                src="img/portfolio/2.jpg"
+                class="w-100 img-thumbnail"
+                alt="Portfolio Item"
+              />
+              <h3 class="text-capitalize fs-5 my-2">App Landing Page</h3>
+              <p class="mb-4">
+                <a href="#" class="text-danger text-decoration-none"
+                  >Live Demo</a
+                >
+              </p>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4">
+            <div class="portfolio-item">
+              <img
+                src="img/portfolio/3.jpg"
+                class="w-100 img-thumbnail"
+                alt="Portfolio Item"
+              />
+              <h3 class="text-capitalize fs-5 my-2">Creative Team Section</h3>
+              <p class="mb-4">
+                <a href="#" class="text-danger text-decoration-none"
+                  >Live Demo</a
+                >
+              </p>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4">
+            <div class="portfolio-item">
+              <img
+                src="img/portfolio/4.jpg"
+                class="w-100 img-thumbnail"
+                alt="Portfolio Item"
+              />
+              <h3 class="text-capitalize fs-5 my-2">Toggle Pricing Table</h3>
+              <p class="mb-4">
+                <a href="#" class="text-danger text-decoration-none"
+                  >Live Demo</a
+                >
+              </p>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4">
+            <div class="portfolio-item">
+              <img
+                src="img/portfolio/5.jpg"
+                class="w-100 img-thumbnail"
+                alt="Portfolio Item"
+              />
+              <h3 class="text-capitalize fs-5 my-2">
+                Bootstrap 5 Image Gallery
+              </h3>
+              <p class="mb-4">
+                <a href="#" class="text-danger text-decoration-none"
+                  >Live Demo</a
+                >
+              </p>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4">
+            <div class="portfolio-item">
+              <img
+                src="img/portfolio/6.jpg"
+                class="w-100 img-thumbnail"
+                alt="Portfolio Item"
+              />
+              <h3 class="text-capitalize fs-5 my-2">
+                Filterable Image Gallery
+              </h3>
+              <p class="mb-4">
+                <a href="#" class="text-danger text-decoration-none"
+                  >Live Demo</a
+                >
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Portfolio End -->
+
+    <!-- Freelance Start -->
+    <section class="freelance bg-danger py-5">
+      <div class="container-lg py-4">
+        <div class="row justify-content-center">
+          <div class="col-lg-8 text-center">
+            <p class="fs-5 text-light">Do you have any project?</p>
+            <h2 class="fs-1 text-white mb-4">
+              I'm Available for Freelance Projects
+            </h2>
+            <a href="#contact" class="btn btn-outline-light">Hire Me</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Freelance End -->
+
+    <!-- Testimonial Start -->
+    <section class="testimonial bg-body-tertiary py-5" id="testimonial">
+      <div class="container-lg py-4">
+        <div class="row justify-content-center">
+          <div class="col-lg-8">
+            <div class="section-title text-center">
+              <h2 class="fw-bold mb-5">Testimonials</h2>
+            </div>
+          </div>
+        </div>
+        <div class="row justify-content-center">
+          <div class="col-lg-8 col-xl-7">
+            <div id="carouselExampleIndicators" class="carousel slide">
+              <div class="carousel-indicators">
+                <button
+                  type="button"
+                  data-bs-target="#carouselExampleIndicators"
+                  data-bs-slide-to="0"
+                  class="active bg-danger"
+                  aria-current="true"
+                  aria-label="Slide 1"
+                ></button>
+                <button
+                  type="button"
+                  data-bs-target="#carouselExampleIndicators"
+                  data-bs-slide-to="1"
+                  class="bg-danger"
+                  aria-label="Slide 2"
+                ></button>
+                <button
+                  type="button"
+                  data-bs-target="#carouselExampleIndicators"
+                  data-bs-slide-to="2"
+                  class="bg-danger"
+                  aria-label="Slide 3"
+                ></button>
+              </div>
+              <div class="carousel-inner p-1">
+                <!-- Testi item start -->
+                <div
+                  class="testi-item carousel-item active bg-white shadow-sm rounded p-4 mb-5"
+                >
+                  <div class="testi-author-info d-flex align-items-center">
+                    <img
+                      src="img/testimonial/1.jpg"
+                      class="img-thumbnail rounded-circle"
+                      alt="Testimonial"
+                    />
+                    <div class="author ms-3">
+                      <h3 class="fs-6 mb-1">Raj Himachal</h3>
+                      <p class="text-muted m-0">SEO Manager</p>
+                    </div>
+                  </div>
+                  <p class="text-muted mt-3">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Facere quia quod quisquam natus corrupti debitis sit
+                    voluptatibus pariatur repellat excepturi.
+                  </p>
+                  <div class="rating text-danger">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                  </div>
+                </div>
+                <!-- Testi item end -->
+                <!-- Testi item start -->
+                <div
+                  class="testi-item carousel-item bg-white shadow-sm rounded p-4 mb-5"
+                >
+                  <div class="testi-author-info d-flex align-items-center">
+                    <img
+                      src="img/testimonial/2.jpg"
+                      class="img-thumbnail rounded-circle"
+                      alt="Testimonial"
+                    />
+                    <div class="author ms-3">
+                      <h3 class="fs-6 mb-1">Raj Himachal</h3>
+                      <p class="text-muted m-0">SEO Manager</p>
+                    </div>
+                  </div>
+                  <p class="text-muted mt-3">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Facere quia quod quisquam natus corrupti debitis sit
+                    voluptatibus pariatur repellat excepturi.
+                  </p>
+                  <div class="rating text-danger">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                  </div>
+                </div>
+                <!-- Testi item end -->
+                <!-- Testi item start -->
+                <div
+                  class="testi-item carousel-item bg-white shadow-sm rounded p-4 mb-5"
+                >
+                  <div class="testi-author-info d-flex align-items-center">
+                    <img
+                      src="img/testimonial/3.jpg"
+                      class="img-thumbnail rounded-circle"
+                      alt="Testimonial"
+                    />
+                    <div class="author ms-3">
+                      <h3 class="fs-6 mb-1">Raj Himachal</h3>
+                      <p class="text-muted m-0">SEO Manager</p>
+                    </div>
+                  </div>
+                  <p class="text-muted mt-3">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Facere quia quod quisquam natus corrupti debitis sit
+                    voluptatibus pariatur repellat excepturi.
+                  </p>
+                  <div class="rating text-danger">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                  </div>
+                </div>
+                <!-- Testi item end -->
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Testimonial End -->
+
+    <!-- Contact Start -->
+    <section class="contact bg-body-tertiary py-5" id="contact">
+      <div class="container-lg py-4">
+        <div class="row justify-content-center">
+          <div class="col-lg-8">
+            <div class="section-title text-center">
+              <h2 class="fw-bold mb-5">Contact Me</h2>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-5">
+            <div class="contact-item d-flex mb-3">
+              <div class="icon fs-4 text-danger">
+                <i class="fas fa-envelope"></i>
+              </div>
+              <div class="text ms-3">
+                <h3 class="fs-5">Email</h3>
+                <p class="text-muted">example@gmail.com</p>
+              </div>
+            </div>
+            <div class="contact-item d-flex mb-3">
+              <div class="icon fs-4 text-danger">
+                <i class="fas fa-phone"></i>
+              </div>
+              <div class="text ms-3">
+                <h3 class="fs-5">Phone</h3>
+                <p class="text-muted">+62 812-3456-7890</p>
+              </div>
+            </div>
+            <div class="contact-item d-flex mb-3">
+              <div class="icon fs-4 text-danger">
+                <i class="fas fa-map-marker-alt"></i>
+              </div>
+              <div class="text ms-3">
+                <h3 class="fs-5">Address</h3>
+                <p class="text-muted">Semarang, Indonesia</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-7">
+            <div class="contact-form">
+              <form action="">
+                <div class="row">
+                  <div class="col-lg-6 mb-4">
+                    <input
+                      type="text"
+                      class="form-control form-control-lg fs-6 border-0 shadow-sm"
+                      placeholder="Your Name"
+                    />
+                  </div>
+                  <div class="col-lg-6 mb-4">
+                    <input
+                      type="text"
+                      class="form-control form-control-lg fs-6 border-0 shadow-sm"
+                      placeholder="Your Email"
+                    />
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-lg-12 mb-4">
+                    <input
+                      type="text"
+                      class="form-control form-control-lg fs-6 border-0 shadow-sm"
+                      placeholder="Subject"
+                    />
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-lg-12 mb-4">
+                    <textarea
+                      rows="5"
+                      type="text"
+                      class="form-control form-control-lg fs-6 border-0 shadow-sm"
+                      placeholder="Your Message"
+                    ></textarea>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-lg-12">
+                    <button type="submit" class="btn btn-danger px-3">
+                      Send Message
+                    </button>
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Contact End -->
+
+    <!-- Bootstrap JS -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- Dark Mode JS -->
+    <script>
+      /*!
+       * Color mode toggler for Bootstrap's docs (https://getbootstrap.com/)
+       * Copyright 2011-2024 The Bootstrap Authors
+       * Licensed under the Creative Commons Attribution 3.0 Unported License.
+       */
+
+      (() => {
+        "use strict";
+
+        const getStoredTheme = () => localStorage.getItem("theme");
+        const setStoredTheme = (theme) => localStorage.setItem("theme", theme);
+
+        const getPreferredTheme = () => {
+          const storedTheme = getStoredTheme();
+          if (storedTheme) {
+            return storedTheme;
+          }
+
+          return window.matchMedia("(prefers-color-scheme: dark)").matches
+            ? "dark"
+            : "light";
+        };
+
+        const setTheme = (theme) => {
+          if (theme === "auto") {
+            document.documentElement.setAttribute(
+              "data-bs-theme",
+              window.matchMedia("(prefers-color-scheme: dark)").matches
+                ? "dark"
+                : "light"
+            );
+          } else {
+            document.documentElement.setAttribute("data-bs-theme", theme);
+          }
+        };
+
+        setTheme(getPreferredTheme());
+
+        const showActiveTheme = (theme, focus = false) => {
+          const activeThemeIcon = document.querySelector(".theme-icon-active");
+          const btnToActive = document.querySelector(
+            `[data-bs-theme-value="${theme}"]`
+          );
+          const iconOfActiveBtn =
+            btnToActive.querySelector("i").dataset.iconActive;
+
+          document
+            .querySelectorAll("[data-bs-theme-value]")
+            .forEach((element) => {
+              element.classList.remove("active");
+              element.setAttribute("aria-pressed", "false");
+            });
+
+          btnToActive.classList.add("active");
+          btnToActive.setAttribute("aria-pressed", "true");
+          activeThemeIcon.classList.remove(activeThemeIcon.dataset.iconActive);
+          activeThemeIcon.classList.add(iconOfActiveBtn);
+          activeThemeIcon.dataset.iconActive = iconOfActiveBtn;
+
+          const themeSwitcherLabel = `${btnToActive.textContent.trim()} (${
+            btnToActive.dataset.bsThemeValue
+          })`;
+          activeThemeIcon.parentElement.setAttribute(
+            "aria-label",
+            themeSwitcherLabel
+          );
+
+          if (focus) {
+            activeThemeIcon.parentElement.focus();
+          }
+        };
+
+        window
+          .matchMedia("(prefers-color-scheme: dark)")
+          .addEventListener("change", () => {
+            const storedTheme = getStoredTheme();
+            if (storedTheme !== "light" && storedTheme !== "dark") {
+              setTheme(getPreferredTheme());
+            }
+          });
+
+        window.addEventListener("DOMContentLoaded", () => {
+          showActiveTheme(getPreferredTheme());
+
+          document
+            .querySelectorAll("[data-bs-theme-value]")
+            .forEach((toggle) => {
+              toggle.addEventListener("click", () => {
+                const theme = toggle.getAttribute("data-bs-theme-value");
+                setStoredTheme(theme);
+                setTheme(theme);
+                showActiveTheme(theme, true);
+              });
+            });
+        });
+      })();
+    </script>
+
+    <!-- Nav Active JS -->
+    <script>
+      // Fungsi untuk menentukan bagian mana yang sedang ditampilkan berdasarkan posisi scroll
+      function getActiveSection() {
+        // Mendapatkan posisi scroll saat ini
+        var scrollPosition = window.scrollY;
+
+        // Mendapatkan semua bagian yang memiliki ID dan berada di atas header navbar
+        var sections = document.querySelectorAll("section[id]");
+        for (var i = sections.length - 1; i >= 0; i--) {
+          var section = sections[i];
+          if (
+            scrollPosition >=
+            section.offsetTop - document.querySelector(".navbar").offsetHeight
+          ) {
+            return section.id;
+          }
+        }
+        return null;
+      }
+
+      // Fungsi untuk menambahkan kelas active ke navbar link yang sesuai dengan bagian yang sedang ditampilkan
+      function setActiveNavbarLink() {
+        var activeSectionId = getActiveSection();
+
+        // Mendapatkan semua navbar link
+        var navbarLinks = document.querySelectorAll(".navbar-nav .nav-link");
+
+        // Iterasi melalui semua navbar link dan tambahkan atau hapus kelas active sesuai dengan bagian yang sedang ditampilkan
+        navbarLinks.forEach(function (link) {
+          link.classList.toggle(
+            "active",
+            link.getAttribute("href") === "#" + activeSectionId
+          );
+        });
+      }
+
+      // Panggil fungsi setActiveNavbarLink() saat halaman dimuat atau saat pengguna melakukan scroll
+      window.addEventListener("DOMContentLoaded", setActiveNavbarLink);
+      window.addEventListener("scroll", setActiveNavbarLink);
+    </script>
+  </body>
+</html>
